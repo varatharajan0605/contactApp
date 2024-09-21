@@ -1,0 +1,27 @@
+.wrapper {
+    .card {
+        margin: 10px;
+    }
+
+    .card-body {
+        padding: 10px;
+    }
+
+    .header {
+        height: 100px;
+        background-color: black;
+        color: white;
+        z-index: 9999;
+    }
+
+    .content-body {
+        margin-bottom: 100px;
+    }
+
+    .footer {
+        height: 100px;
+        width: 100%;
+        background-color: black;
+        color: white;
+    }
+}

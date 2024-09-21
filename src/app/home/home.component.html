@@ -1,0 +1,29 @@
+<div class="wrapper">
+    <header class="header d-flex align-items-center position-sticky top-0">
+        <span style="padding: 10px;" class="d-flex"><a class="text-white text-decoration-none">Home</a></span>
+        <span style="padding: 10px;" class="d-flex"><a class="text-white text-decoration-none" href="#about">About
+                Us</a></span>
+        <span style="padding: 10px;" class="d-flex"><a class="text-white text-decoration-none" href="#contact">Contact
+                Us</a></span>
+    </header>
+    <section class="container overflow-scroll content-body">
+        <h3>Welcome !</h3>
+        <ng-container
+            *ngFor="let item of [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]">
+            <div class="card">
+                <div class="card-header">Card Header</div>
+                <div class="card-body">
+                    <h3 class="card-title">Card Title</h3>
+                    <p class="card-text">text goes here..</p>
+                </div>
+            </div>
+        </ng-container>
+        <button class="btn btn-primary">this is my button</button>
+    </section>
+    <footer class="d-flex align-items-center footer">
+        <div class="d-flex container justify-content-between">
+            <div id="contact">Division 1</div>
+            <div id="about">Division 2</div>
+        </div>
+    </footer>
+</div>
